@@ -33,4 +33,5 @@
 
 *.log
 *.csv
-.ipybn*
+*.ipynb*
+.vscode

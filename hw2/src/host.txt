@@ -1,0 +1,1068 @@
+Number of runs 7
+Matrix size 500
+MatMul - kij ordering
+runtime	kij ordering	0.434917	500	matmul
+runtime	kij ordering	0.410590	500	matmul
+runtime	kij ordering	0.410294	500	matmul
+runtime	kij ordering	0.410231	500	matmul
+runtime	kij ordering	0.409821	500	matmul
+runtime	kij ordering	0.409889	500	matmul
+runtime	kij ordering	0.409799	500	matmul
+average runtime 0.413649 seconds
+---------------------------------
+Number of runs 7
+Matrix size 500
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	0.390463	500	matmul
+runtime	kij, naive optimization	0.358016	500	matmul
+runtime	kij, naive optimization	0.358677	500	matmul
+runtime	kij, naive optimization	0.358040	500	matmul
+runtime	kij, naive optimization	0.358382	500	matmul
+runtime	kij, naive optimization	0.357979	500	matmul
+runtime	kij, naive optimization	0.357851	500	matmul
+average runtime 0.362773 seconds
+---------------------------------
+Number of runs 7
+Matrix size 500
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.006418	500	matmul
+runtime	cblas_dgemm optimization	0.002141	500	matmul
+runtime	cblas_dgemm optimization	0.002792	500	matmul
+runtime	cblas_dgemm optimization	0.002930	500	matmul
+runtime	cblas_dgemm optimization	0.002230	500	matmul
+runtime	cblas_dgemm optimization	0.002185	500	matmul
+runtime	cblas_dgemm optimization	0.002186	500	matmul
+average runtime 0.002983 seconds
+---------------------------------
+Number of runs 7
+Matrix size 500
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	0.398767	500	matmul
+runtime	shtrassen algorithm	0.371696	500	matmul
+runtime	shtrassen algorithm	0.372487	500	matmul
+runtime	shtrassen algorithm	0.371555	500	matmul
+runtime	shtrassen algorithm	0.372085	500	matmul
+runtime	shtrassen algorithm	0.371929	500	matmul
+runtime	shtrassen algorithm	0.371957	500	matmul
+average runtime 0.375782 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - kij ordering
+runtime	kij ordering	0.478174	512	matmul
+runtime	kij ordering	0.444613	512	matmul
+runtime	kij ordering	0.442778	512	matmul
+runtime	kij ordering	0.442713	512	matmul
+runtime	kij ordering	0.443084	512	matmul
+runtime	kij ordering	0.442507	512	matmul
+runtime	kij ordering	0.442794	512	matmul
+average runtime 0.448095 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	0.410877	512	matmul
+runtime	kij, naive optimization	0.384530	512	matmul
+runtime	kij, naive optimization	0.385258	512	matmul
+runtime	kij, naive optimization	0.384600	512	matmul
+runtime	kij, naive optimization	0.385692	512	matmul
+runtime	kij, naive optimization	0.384428	512	matmul
+runtime	kij, naive optimization	0.383689	512	matmul
+average runtime 0.388439 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.005962	512	matmul
+runtime	cblas_dgemm optimization	0.003953	512	matmul
+runtime	cblas_dgemm optimization	0.002305	512	matmul
+runtime	cblas_dgemm optimization	0.003082	512	matmul
+runtime	cblas_dgemm optimization	0.002525	512	matmul
+runtime	cblas_dgemm optimization	0.002368	512	matmul
+runtime	cblas_dgemm optimization	0.003058	512	matmul
+average runtime 0.003322 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	0.396858	512	matmul
+runtime	shtrassen algorithm	0.368300	512	matmul
+runtime	shtrassen algorithm	0.367991	512	matmul
+runtime	shtrassen algorithm	0.368325	512	matmul
+runtime	shtrassen algorithm	0.368443	512	matmul
+runtime	shtrassen algorithm	0.367961	512	matmul
+runtime	shtrassen algorithm	0.368348	512	matmul
+average runtime 0.372318 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - kij ordering
+runtime	kij ordering	3.319344	1000	matmul
+runtime	kij ordering	3.299229	1000	matmul
+runtime	kij ordering	3.294572	1000	matmul
+runtime	kij ordering	3.291172	1000	matmul
+runtime	kij ordering	3.287459	1000	matmul
+runtime	kij ordering	3.287814	1000	matmul
+runtime	kij ordering	3.289983	1000	matmul
+average runtime 3.295653 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	2.900803	1000	matmul
+runtime	kij, naive optimization	2.870660	1000	matmul
+runtime	kij, naive optimization	2.867086	1000	matmul
+runtime	kij, naive optimization	2.866147	1000	matmul
+runtime	kij, naive optimization	2.865969	1000	matmul
+runtime	kij, naive optimization	2.883504	1000	matmul
+runtime	kij, naive optimization	2.930036	1000	matmul
+average runtime 2.883458 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.029749	1000	matmul
+runtime	cblas_dgemm optimization	0.016974	1000	matmul
+runtime	cblas_dgemm optimization	0.017020	1000	matmul
+runtime	cblas_dgemm optimization	0.017152	1000	matmul
+runtime	cblas_dgemm optimization	0.017071	1000	matmul
+runtime	cblas_dgemm optimization	0.017180	1000	matmul
+runtime	cblas_dgemm optimization	0.017682	1000	matmul
+average runtime 0.018975 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	2.649025	1000	matmul
+runtime	shtrassen algorithm	2.589991	1000	matmul
+runtime	shtrassen algorithm	2.593142	1000	matmul
+runtime	shtrassen algorithm	2.588167	1000	matmul
+runtime	shtrassen algorithm	2.588594	1000	matmul
+runtime	shtrassen algorithm	2.589108	1000	matmul
+runtime	shtrassen algorithm	2.587469	1000	matmul
+average runtime 2.597928 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - kij ordering
+runtime	kij ordering	3.602901	1024	matmul
+runtime	kij ordering	3.540330	1024	matmul
+runtime	kij ordering	3.534278	1024	matmul
+runtime	kij ordering	3.534696	1024	matmul
+runtime	kij ordering	3.536946	1024	matmul
+runtime	kij ordering	3.534579	1024	matmul
+runtime	kij ordering	3.535091	1024	matmul
+average runtime 3.545546 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	3.131403	1024	matmul
+runtime	kij, naive optimization	3.096966	1024	matmul
+runtime	kij, naive optimization	3.090455	1024	matmul
+runtime	kij, naive optimization	3.086655	1024	matmul
+runtime	kij, naive optimization	3.092583	1024	matmul
+runtime	kij, naive optimization	3.092488	1024	matmul
+runtime	kij, naive optimization	3.105816	1024	matmul
+average runtime 3.099481 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.031250	1024	matmul
+runtime	cblas_dgemm optimization	0.018955	1024	matmul
+runtime	cblas_dgemm optimization	0.019049	1024	matmul
+runtime	cblas_dgemm optimization	0.019092	1024	matmul
+runtime	cblas_dgemm optimization	0.019178	1024	matmul
+runtime	cblas_dgemm optimization	0.018998	1024	matmul
+runtime	cblas_dgemm optimization	0.019179	1024	matmul
+average runtime 0.020814 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	2.646485	1024	matmul
+runtime	shtrassen algorithm	2.576073	1024	matmul
+runtime	shtrassen algorithm	2.591421	1024	matmul
+runtime	shtrassen algorithm	2.585084	1024	matmul
+runtime	shtrassen algorithm	2.577801	1024	matmul
+runtime	shtrassen algorithm	2.575177	1024	matmul
+runtime	shtrassen algorithm	2.575138	1024	matmul
+average runtime 2.589597 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2000
+MatMul - kij ordering
+runtime	kij ordering	27.388854	2000	matmul
+runtime	kij ordering	27.113142	2000	matmul
+runtime	kij ordering	27.302129	2000	matmul
+runtime	kij ordering	26.642887	2000	matmul
+runtime	kij ordering	27.053244	2000	matmul
+runtime	kij ordering	27.755260	2000	matmul
+runtime	kij ordering	27.554936	2000	matmul
+average runtime 27.258636 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2000
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	23.972951	2000	matmul
+runtime	kij, naive optimization	23.899003	2000	matmul
+runtime	kij, naive optimization	24.032952	2000	matmul
+runtime	kij, naive optimization	24.389944	2000	matmul
+runtime	kij, naive optimization	23.678532	2000	matmul
+runtime	kij, naive optimization	24.083056	2000	matmul
+runtime	kij, naive optimization	24.992038	2000	matmul
+average runtime 24.149782 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2000
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.167196	2000	matmul
+runtime	cblas_dgemm optimization	0.141583	2000	matmul
+runtime	cblas_dgemm optimization	0.168122	2000	matmul
+runtime	cblas_dgemm optimization	0.213774	2000	matmul
+runtime	cblas_dgemm optimization	0.147042	2000	matmul
+runtime	cblas_dgemm optimization	0.157753	2000	matmul
+runtime	cblas_dgemm optimization	0.146148	2000	matmul
+average runtime 0.163088 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2000
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	18.636721	2000	matmul
+runtime	shtrassen algorithm	18.431478	2000	matmul
+runtime	shtrassen algorithm	18.321789	2000	matmul
+runtime	shtrassen algorithm	18.360569	2000	matmul
+runtime	shtrassen algorithm	18.366327	2000	matmul
+runtime	shtrassen algorithm	18.468101	2000	matmul
+runtime	shtrassen algorithm	19.451425	2000	matmul
+average runtime 18.576630 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2048
+MatMul - kij ordering
+runtime	kij ordering	30.326216	2048	matmul
+runtime	kij ordering	29.712729	2048	matmul
+runtime	kij ordering	29.249731	2048	matmul
+runtime	kij ordering	28.610761	2048	matmul
+runtime	kij ordering	29.141648	2048	matmul
+runtime	kij ordering	28.947076	2048	matmul
+runtime	kij ordering	29.105537	2048	matmul
+average runtime 29.299100 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2048
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	28.020368	2048	matmul
+runtime	kij, naive optimization	25.725172	2048	matmul
+runtime	kij, naive optimization	26.148188	2048	matmul
+runtime	kij, naive optimization	25.624895	2048	matmul
+runtime	kij, naive optimization	25.575241	2048	matmul
+runtime	kij, naive optimization	25.418978	2048	matmul
+runtime	kij, naive optimization	25.407411	2048	matmul
+average runtime 25.988608 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2048
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.220125	2048	matmul
+runtime	cblas_dgemm optimization	0.199592	2048	matmul
+runtime	cblas_dgemm optimization	0.199567	2048	matmul
+runtime	cblas_dgemm optimization	0.199200	2048	matmul
+runtime	cblas_dgemm optimization	0.246878	2048	matmul
+runtime	cblas_dgemm optimization	0.214045	2048	matmul
+runtime	cblas_dgemm optimization	0.201020	2048	matmul
+average runtime 0.211490 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2048
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	18.605912	2048	matmul
+runtime	shtrassen algorithm	18.611430	2048	matmul
+runtime	shtrassen algorithm	18.716290	2048	matmul
+runtime	shtrassen algorithm	18.752389	2048	matmul
+runtime	shtrassen algorithm	18.680125	2048	matmul
+runtime	shtrassen algorithm	18.672261	2048	matmul
+runtime	shtrassen algorithm	18.693713	2048	matmul
+average runtime 18.676017 seconds
+---------------------------------
+Number of runs 7
+Matrix size 500
+MatMul - kij ordering
+runtime	kij ordering	0.095030	500	optim
+runtime	kij ordering	0.032864	500	optim
+runtime	kij ordering	0.035104	500	optim
+runtime	kij ordering	0.037285	500	optim
+runtime	kij ordering	0.036534	500	optim
+runtime	kij ordering	0.039022	500	optim
+runtime	kij ordering	0.036588	500	optim
+average runtime 0.044632 seconds
+---------------------------------
+Number of runs 7
+Matrix size 500
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	0.084886	500	optim
+runtime	kij, naive optimization	0.033359	500	optim
+runtime	kij, naive optimization	0.032081	500	optim
+runtime	kij, naive optimization	0.032213	500	optim
+runtime	kij, naive optimization	0.032250	500	optim
+runtime	kij, naive optimization	0.032154	500	optim
+runtime	kij, naive optimization	0.033578	500	optim
+average runtime 0.040074 seconds
+---------------------------------
+Number of runs 7
+Matrix size 500
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.008737	500	optim
+runtime	cblas_dgemm optimization	0.005268	500	optim
+runtime	cblas_dgemm optimization	0.005490	500	optim
+runtime	cblas_dgemm optimization	0.005784	500	optim
+runtime	cblas_dgemm optimization	0.004269	500	optim
+runtime	cblas_dgemm optimization	0.003658	500	optim
+runtime	cblas_dgemm optimization	0.004362	500	optim
+average runtime 0.005367 seconds
+---------------------------------
+Number of runs 7
+Matrix size 500
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	0.095190	500	optim
+runtime	shtrassen algorithm	0.041432	500	optim
+runtime	shtrassen algorithm	0.041178	500	optim
+runtime	shtrassen algorithm	0.041830	500	optim
+runtime	shtrassen algorithm	0.041645	500	optim
+runtime	shtrassen algorithm	0.041937	500	optim
+runtime	shtrassen algorithm	0.042258	500	optim
+average runtime 0.049353 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - kij ordering
+runtime	kij ordering	0.088182	512	optim
+runtime	kij ordering	0.037130	512	optim
+runtime	kij ordering	0.037037	512	optim
+runtime	kij ordering	0.037258	512	optim
+runtime	kij ordering	0.037044	512	optim
+runtime	kij ordering	0.037124	512	optim
+runtime	kij ordering	0.037375	512	optim
+average runtime 0.044450 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	0.094198	512	optim
+runtime	kij, naive optimization	0.039429	512	optim
+runtime	kij, naive optimization	0.039516	512	optim
+runtime	kij, naive optimization	0.039169	512	optim
+runtime	kij, naive optimization	0.041246	512	optim
+runtime	kij, naive optimization	0.038174	512	optim
+runtime	kij, naive optimization	0.037919	512	optim
+average runtime 0.047093 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.009831	512	optim
+runtime	cblas_dgemm optimization	0.005773	512	optim
+runtime	cblas_dgemm optimization	0.006009	512	optim
+runtime	cblas_dgemm optimization	0.005964	512	optim
+runtime	cblas_dgemm optimization	0.005877	512	optim
+runtime	cblas_dgemm optimization	0.005667	512	optim
+runtime	cblas_dgemm optimization	0.005706	512	optim
+average runtime 0.006404 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	0.097540	512	optim
+runtime	shtrassen algorithm	0.041240	512	optim
+runtime	shtrassen algorithm	0.041263	512	optim
+runtime	shtrassen algorithm	0.041238	512	optim
+runtime	shtrassen algorithm	0.041195	512	optim
+runtime	shtrassen algorithm	0.041534	512	optim
+runtime	shtrassen algorithm	0.041187	512	optim
+average runtime 0.049314 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - kij ordering
+runtime	kij ordering	0.764803	1000	optim
+runtime	kij ordering	0.754005	1000	optim
+runtime	kij ordering	0.752354	1000	optim
+runtime	kij ordering	0.755787	1000	optim
+runtime	kij ordering	0.755972	1000	optim
+runtime	kij ordering	0.757078	1000	optim
+runtime	kij ordering	0.757478	1000	optim
+average runtime 0.756782 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	0.770290	1000	optim
+runtime	kij, naive optimization	0.755571	1000	optim
+runtime	kij, naive optimization	0.768750	1000	optim
+runtime	kij, naive optimization	0.828313	1000	optim
+runtime	kij, naive optimization	0.741118	1000	optim
+runtime	kij, naive optimization	0.733657	1000	optim
+runtime	kij, naive optimization	0.753620	1000	optim
+average runtime 0.764474 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.032422	1000	optim
+runtime	cblas_dgemm optimization	0.025016	1000	optim
+runtime	cblas_dgemm optimization	0.025518	1000	optim
+runtime	cblas_dgemm optimization	0.024927	1000	optim
+runtime	cblas_dgemm optimization	0.025730	1000	optim
+runtime	cblas_dgemm optimization	0.025480	1000	optim
+runtime	cblas_dgemm optimization	0.025125	1000	optim
+average runtime 0.026317 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	0.338358	1000	optim
+runtime	shtrassen algorithm	0.287792	1000	optim
+runtime	shtrassen algorithm	0.286708	1000	optim
+runtime	shtrassen algorithm	0.297161	1000	optim
+runtime	shtrassen algorithm	0.288636	1000	optim
+runtime	shtrassen algorithm	0.291305	1000	optim
+runtime	shtrassen algorithm	0.289018	1000	optim
+average runtime 0.296997 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - kij ordering
+runtime	kij ordering	0.824242	1024	optim
+runtime	kij ordering	0.888118	1024	optim
+runtime	kij ordering	0.823954	1024	optim
+runtime	kij ordering	0.784659	1024	optim
+runtime	kij ordering	0.800787	1024	optim
+runtime	kij ordering	0.788075	1024	optim
+runtime	kij ordering	0.791897	1024	optim
+average runtime 0.814533 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	0.843228	1024	optim
+runtime	kij, naive optimization	0.788106	1024	optim
+runtime	kij, naive optimization	0.781653	1024	optim
+runtime	kij, naive optimization	0.783039	1024	optim
+runtime	kij, naive optimization	0.790485	1024	optim
+runtime	kij, naive optimization	0.787348	1024	optim
+runtime	kij, naive optimization	0.793256	1024	optim
+average runtime 0.795302 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.051002	1024	optim
+runtime	cblas_dgemm optimization	0.031820	1024	optim
+runtime	cblas_dgemm optimization	0.030992	1024	optim
+runtime	cblas_dgemm optimization	0.040308	1024	optim
+runtime	cblas_dgemm optimization	0.065671	1024	optim
+runtime	cblas_dgemm optimization	0.050413	1024	optim
+runtime	cblas_dgemm optimization	0.053482	1024	optim
+average runtime 0.046241 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	0.358989	1024	optim
+runtime	shtrassen algorithm	0.301373	1024	optim
+runtime	shtrassen algorithm	0.303053	1024	optim
+runtime	shtrassen algorithm	0.289932	1024	optim
+runtime	shtrassen algorithm	0.287350	1024	optim
+runtime	shtrassen algorithm	0.303128	1024	optim
+runtime	shtrassen algorithm	0.303410	1024	optim
+average runtime 0.306748 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2000
+MatMul - kij ordering
+runtime	kij ordering	6.089306	2000	optim
+runtime	kij ordering	6.028806	2000	optim
+runtime	kij ordering	6.025842	2000	optim
+runtime	kij ordering	5.994944	2000	optim
+runtime	kij ordering	6.027012	2000	optim
+runtime	kij ordering	6.069553	2000	optim
+runtime	kij ordering	6.099535	2000	optim
+average runtime 6.047857 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2000
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	6.075732	2000	optim
+runtime	kij, naive optimization	6.095704	2000	optim
+runtime	kij, naive optimization	6.117859	2000	optim
+runtime	kij, naive optimization	6.102223	2000	optim
+runtime	kij, naive optimization	6.098662	2000	optim
+runtime	kij, naive optimization	6.249965	2000	optim
+runtime	kij, naive optimization	6.173691	2000	optim
+average runtime 6.130548 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2000
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.213269	2000	optim
+runtime	cblas_dgemm optimization	0.189629	2000	optim
+runtime	cblas_dgemm optimization	0.205804	2000	optim
+runtime	cblas_dgemm optimization	0.208244	2000	optim
+runtime	cblas_dgemm optimization	0.238684	2000	optim
+runtime	cblas_dgemm optimization	0.214948	2000	optim
+runtime	cblas_dgemm optimization	0.195557	2000	optim
+average runtime 0.209448 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2000
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	2.048488	2000	optim
+runtime	shtrassen algorithm	1.998315	2000	optim
+runtime	shtrassen algorithm	2.007354	2000	optim
+runtime	shtrassen algorithm	2.000979	2000	optim
+runtime	shtrassen algorithm	2.024364	2000	optim
+runtime	shtrassen algorithm	2.006483	2000	optim
+runtime	shtrassen algorithm	2.029654	2000	optim
+average runtime 2.016520 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2048
+MatMul - kij ordering
+runtime	kij ordering	6.494274	2048	optim
+runtime	kij ordering	6.481047	2048	optim
+runtime	kij ordering	6.432564	2048	optim
+runtime	kij ordering	6.458699	2048	optim
+runtime	kij ordering	6.454227	2048	optim
+runtime	kij ordering	6.408305	2048	optim
+runtime	kij ordering	6.415484	2048	optim
+average runtime 6.449229 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2048
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	6.568654	2048	optim
+runtime	kij, naive optimization	6.468309	2048	optim
+runtime	kij, naive optimization	6.466057	2048	optim
+runtime	kij, naive optimization	6.430273	2048	optim
+runtime	kij, naive optimization	6.462001	2048	optim
+runtime	kij, naive optimization	6.424330	2048	optim
+runtime	kij, naive optimization	6.436105	2048	optim
+average runtime 6.465104 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2048
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.216709	2048	optim
+runtime	cblas_dgemm optimization	0.202129	2048	optim
+runtime	cblas_dgemm optimization	0.238935	2048	optim
+runtime	cblas_dgemm optimization	0.239901	2048	optim
+runtime	cblas_dgemm optimization	0.257677	2048	optim
+runtime	cblas_dgemm optimization	0.222948	2048	optim
+runtime	cblas_dgemm optimization	0.311150	2048	optim
+average runtime 0.241350 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2048
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	2.069961	2048	optim
+runtime	shtrassen algorithm	1.996468	2048	optim
+runtime	shtrassen algorithm	2.001633	2048	optim
+runtime	shtrassen algorithm	2.066421	2048	optim
+runtime	shtrassen algorithm	2.058768	2048	optim
+runtime	shtrassen algorithm	1.993306	2048	optim
+runtime	shtrassen algorithm	2.060686	2048	optim
+average runtime 2.035320 seconds
+---------------------------------
+Number of runs 7
+Matrix size 500
+MatMul - kij ordering
+runtime	kij ordering	0.060777	500	fast
+runtime	kij ordering	0.037021	500	fast
+runtime	kij ordering	0.025545	500	fast
+runtime	kij ordering	0.025637	500	fast
+runtime	kij ordering	0.026139	500	fast
+runtime	kij ordering	0.028420	500	fast
+runtime	kij ordering	0.027632	500	fast
+average runtime 0.033024 seconds
+---------------------------------
+Number of runs 7
+Matrix size 500
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	0.064232	500	fast
+runtime	kij, naive optimization	0.042670	500	fast
+runtime	kij, naive optimization	0.029362	500	fast
+runtime	kij, naive optimization	0.028302	500	fast
+runtime	kij, naive optimization	0.028221	500	fast
+runtime	kij, naive optimization	0.028248	500	fast
+runtime	kij, naive optimization	0.028483	500	fast
+average runtime 0.035645 seconds
+---------------------------------
+Number of runs 7
+Matrix size 500
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.007479	500	fast
+runtime	cblas_dgemm optimization	0.004816	500	fast
+runtime	cblas_dgemm optimization	0.002862	500	fast
+runtime	cblas_dgemm optimization	0.002931	500	fast
+runtime	cblas_dgemm optimization	0.002969	500	fast
+runtime	cblas_dgemm optimization	0.003545	500	fast
+runtime	cblas_dgemm optimization	0.002997	500	fast
+average runtime 0.003943 seconds
+---------------------------------
+Number of runs 7
+Matrix size 500
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	0.074509	500	fast
+runtime	shtrassen algorithm	0.039724	500	fast
+runtime	shtrassen algorithm	0.035171	500	fast
+runtime	shtrassen algorithm	0.035190	500	fast
+runtime	shtrassen algorithm	0.034935	500	fast
+runtime	shtrassen algorithm	0.034957	500	fast
+runtime	shtrassen algorithm	0.035110	500	fast
+average runtime 0.041371 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - kij ordering
+runtime	kij ordering	0.065974	512	fast
+runtime	kij ordering	0.042212	512	fast
+runtime	kij ordering	0.030832	512	fast
+runtime	kij ordering	0.030762	512	fast
+runtime	kij ordering	0.030391	512	fast
+runtime	kij ordering	0.030363	512	fast
+runtime	kij ordering	0.030596	512	fast
+average runtime 0.037304 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	0.076291	512	fast
+runtime	kij, naive optimization	0.038450	512	fast
+runtime	kij, naive optimization	0.033032	512	fast
+runtime	kij, naive optimization	0.032876	512	fast
+runtime	kij, naive optimization	0.033132	512	fast
+runtime	kij, naive optimization	0.032062	512	fast
+runtime	kij, naive optimization	0.030448	512	fast
+average runtime 0.039470 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.008987	512	fast
+runtime	cblas_dgemm optimization	0.003627	512	fast
+runtime	cblas_dgemm optimization	0.003112	512	fast
+runtime	cblas_dgemm optimization	0.003538	512	fast
+runtime	cblas_dgemm optimization	0.003436	512	fast
+runtime	cblas_dgemm optimization	0.003236	512	fast
+runtime	cblas_dgemm optimization	0.003611	512	fast
+average runtime 0.004221 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	0.079758	512	fast
+runtime	shtrassen algorithm	0.036472	512	fast
+runtime	shtrassen algorithm	0.036065	512	fast
+runtime	shtrassen algorithm	0.036343	512	fast
+runtime	shtrassen algorithm	0.036309	512	fast
+runtime	shtrassen algorithm	0.035396	512	fast
+runtime	shtrassen algorithm	0.034937	512	fast
+average runtime 0.042183 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - kij ordering
+runtime	kij ordering	0.742735	1000	fast
+runtime	kij ordering	0.758948	1000	fast
+runtime	kij ordering	0.727659	1000	fast
+runtime	kij ordering	0.724910	1000	fast
+runtime	kij ordering	0.731047	1000	fast
+runtime	kij ordering	0.801001	1000	fast
+runtime	kij ordering	0.711680	1000	fast
+average runtime 0.742569 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	0.758718	1000	fast
+runtime	kij, naive optimization	0.763086	1000	fast
+runtime	kij, naive optimization	0.730603	1000	fast
+runtime	kij, naive optimization	0.723389	1000	fast
+runtime	kij, naive optimization	0.801209	1000	fast
+runtime	kij, naive optimization	0.748463	1000	fast
+runtime	kij, naive optimization	0.722797	1000	fast
+average runtime 0.749752 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.045060	1000	fast
+runtime	cblas_dgemm optimization	0.026682	1000	fast
+runtime	cblas_dgemm optimization	0.026655	1000	fast
+runtime	cblas_dgemm optimization	0.027790	1000	fast
+runtime	cblas_dgemm optimization	0.028145	1000	fast
+runtime	cblas_dgemm optimization	0.024611	1000	fast
+runtime	cblas_dgemm optimization	0.023164	1000	fast
+average runtime 0.028872 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	0.299467	1000	fast
+runtime	shtrassen algorithm	0.248015	1000	fast
+runtime	shtrassen algorithm	0.260865	1000	fast
+runtime	shtrassen algorithm	0.262929	1000	fast
+runtime	shtrassen algorithm	0.262229	1000	fast
+runtime	shtrassen algorithm	0.256877	1000	fast
+runtime	shtrassen algorithm	0.248837	1000	fast
+average runtime 0.262746 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - kij ordering
+runtime	kij ordering	0.824726	1024	fast
+runtime	kij ordering	0.875970	1024	fast
+runtime	kij ordering	0.776411	1024	fast
+runtime	kij ordering	0.783232	1024	fast
+runtime	kij ordering	0.785783	1024	fast
+runtime	kij ordering	0.772807	1024	fast
+runtime	kij ordering	0.764211	1024	fast
+average runtime 0.797591 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	0.775025	1024	fast
+runtime	kij, naive optimization	0.769883	1024	fast
+runtime	kij, naive optimization	0.768555	1024	fast
+runtime	kij, naive optimization	0.780069	1024	fast
+runtime	kij, naive optimization	0.775400	1024	fast
+runtime	kij, naive optimization	0.773149	1024	fast
+runtime	kij, naive optimization	0.774484	1024	fast
+average runtime 0.773795 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.037204	1024	fast
+runtime	cblas_dgemm optimization	0.026963	1024	fast
+runtime	cblas_dgemm optimization	0.025788	1024	fast
+runtime	cblas_dgemm optimization	0.028015	1024	fast
+runtime	cblas_dgemm optimization	0.025433	1024	fast
+runtime	cblas_dgemm optimization	0.028383	1024	fast
+runtime	cblas_dgemm optimization	0.025873	1024	fast
+average runtime 0.028237 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	0.296971	1024	fast
+runtime	shtrassen algorithm	0.239691	1024	fast
+runtime	shtrassen algorithm	0.243930	1024	fast
+runtime	shtrassen algorithm	0.241860	1024	fast
+runtime	shtrassen algorithm	0.240522	1024	fast
+runtime	shtrassen algorithm	0.241016	1024	fast
+runtime	shtrassen algorithm	0.245962	1024	fast
+average runtime 0.249993 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2000
+MatMul - kij ordering
+runtime	kij ordering	6.094258	2000	fast
+runtime	kij ordering	6.007952	2000	fast
+runtime	kij ordering	6.014527	2000	fast
+runtime	kij ordering	6.038738	2000	fast
+runtime	kij ordering	6.001786	2000	fast
+runtime	kij ordering	5.996151	2000	fast
+runtime	kij ordering	6.013218	2000	fast
+average runtime 6.023804 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2000
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	6.251390	2000	fast
+runtime	kij, naive optimization	5.969225	2000	fast
+runtime	kij, naive optimization	5.936390	2000	fast
+runtime	kij, naive optimization	5.965114	2000	fast
+runtime	kij, naive optimization	5.989390	2000	fast
+runtime	kij, naive optimization	6.286200	2000	fast
+runtime	kij, naive optimization	6.085407	2000	fast
+average runtime 6.069017 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2000
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.198110	2000	fast
+runtime	cblas_dgemm optimization	0.190693	2000	fast
+runtime	cblas_dgemm optimization	0.192140	2000	fast
+runtime	cblas_dgemm optimization	0.219562	2000	fast
+runtime	cblas_dgemm optimization	0.216152	2000	fast
+runtime	cblas_dgemm optimization	0.220633	2000	fast
+runtime	cblas_dgemm optimization	0.194954	2000	fast
+average runtime 0.204606 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2000
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	1.760399	2000	fast
+runtime	shtrassen algorithm	1.689018	2000	fast
+runtime	shtrassen algorithm	1.687085	2000	fast
+runtime	shtrassen algorithm	1.680878	2000	fast
+runtime	shtrassen algorithm	1.717997	2000	fast
+runtime	shtrassen algorithm	1.747447	2000	fast
+runtime	shtrassen algorithm	1.757094	2000	fast
+average runtime 1.719988 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2048
+MatMul - kij ordering
+runtime	kij ordering	6.507613	2048	fast
+runtime	kij ordering	6.381382	2048	fast
+runtime	kij ordering	6.649954	2048	fast
+runtime	kij ordering	6.397136	2048	fast
+runtime	kij ordering	6.388784	2048	fast
+runtime	kij ordering	6.414311	2048	fast
+runtime	kij ordering	6.374198	2048	fast
+average runtime 6.444768 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2048
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	6.360774	2048	fast
+runtime	kij, naive optimization	6.381010	2048	fast
+runtime	kij, naive optimization	6.381438	2048	fast
+runtime	kij, naive optimization	6.469614	2048	fast
+runtime	kij, naive optimization	6.385315	2048	fast
+runtime	kij, naive optimization	6.391609	2048	fast
+runtime	kij, naive optimization	6.356971	2048	fast
+average runtime 6.389533 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2048
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.211279	2048	fast
+runtime	cblas_dgemm optimization	0.202283	2048	fast
+runtime	cblas_dgemm optimization	0.203054	2048	fast
+runtime	cblas_dgemm optimization	0.203128	2048	fast
+runtime	cblas_dgemm optimization	0.237266	2048	fast
+runtime	cblas_dgemm optimization	0.222679	2048	fast
+runtime	cblas_dgemm optimization	0.201986	2048	fast
+average runtime 0.211668 seconds
+---------------------------------
+Number of runs 7
+Matrix size 2048
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	1.712908	2048	fast
+runtime	shtrassen algorithm	1.685060	2048	fast
+runtime	shtrassen algorithm	1.707870	2048	fast
+runtime	shtrassen algorithm	1.680738	2048	fast
+runtime	shtrassen algorithm	1.681590	2048	fast
+runtime	shtrassen algorithm	1.677854	2048	fast
+runtime	shtrassen algorithm	1.689764	2048	fast
+average runtime 1.690826 seconds
+---------------------------------
+Number of runs 7
+Matrix size 500
+MatMul - kij ordering
+runtime	kij ordering	0.720136	500	debug
+runtime	kij ordering	0.693754	500	debug
+runtime	kij ordering	0.690630	500	debug
+runtime	kij ordering	0.690166	500	debug
+runtime	kij ordering	0.686371	500	debug
+runtime	kij ordering	0.686487	500	debug
+runtime	kij ordering	0.687220	500	debug
+average runtime 0.693538 seconds
+---------------------------------
+Number of runs 7
+Matrix size 500
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	0.620476	500	debug
+runtime	kij, naive optimization	0.598059	500	debug
+runtime	kij, naive optimization	0.605239	500	debug
+runtime	kij, naive optimization	0.602032	500	debug
+runtime	kij, naive optimization	0.608534	500	debug
+runtime	kij, naive optimization	0.603539	500	debug
+runtime	kij, naive optimization	0.598055	500	debug
+average runtime 0.605133 seconds
+---------------------------------
+Number of runs 7
+Matrix size 500
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.007856	500	debug
+runtime	cblas_dgemm optimization	0.003369	500	debug
+runtime	cblas_dgemm optimization	0.003446	500	debug
+runtime	cblas_dgemm optimization	0.003954	500	debug
+runtime	cblas_dgemm optimization	0.003372	500	debug
+runtime	cblas_dgemm optimization	0.003340	500	debug
+runtime	cblas_dgemm optimization	0.003611	500	debug
+average runtime 0.004135 seconds
+---------------------------------
+Number of runs 7
+Matrix size 500
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	0.669931	500	debug
+runtime	shtrassen algorithm	0.572931	500	debug
+runtime	shtrassen algorithm	0.454472	500	debug
+runtime	shtrassen algorithm	0.384706	500	debug
+runtime	shtrassen algorithm	0.372041	500	debug
+runtime	shtrassen algorithm	0.367983	500	debug
+runtime	shtrassen algorithm	0.374651	500	debug
+average runtime 0.456674 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - kij ordering
+runtime	kij ordering	0.488944	512	debug
+runtime	kij ordering	0.442357	512	debug
+runtime	kij ordering	0.443269	512	debug
+runtime	kij ordering	0.445873	512	debug
+runtime	kij ordering	0.441979	512	debug
+runtime	kij ordering	0.439890	512	debug
+runtime	kij ordering	0.441098	512	debug
+average runtime 0.449059 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	0.422026	512	debug
+runtime	kij, naive optimization	0.391677	512	debug
+runtime	kij, naive optimization	0.386226	512	debug
+runtime	kij, naive optimization	0.384632	512	debug
+runtime	kij, naive optimization	0.382950	512	debug
+runtime	kij, naive optimization	0.382442	512	debug
+runtime	kij, naive optimization	0.381827	512	debug
+average runtime 0.390254 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.007224	512	debug
+runtime	cblas_dgemm optimization	0.003017	512	debug
+runtime	cblas_dgemm optimization	0.003148	512	debug
+runtime	cblas_dgemm optimization	0.003745	512	debug
+runtime	cblas_dgemm optimization	0.003554	512	debug
+runtime	cblas_dgemm optimization	0.003299	512	debug
+runtime	cblas_dgemm optimization	0.003149	512	debug
+average runtime 0.003877 seconds
+---------------------------------
+Number of runs 7
+Matrix size 512
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	0.408229	512	debug
+runtime	shtrassen algorithm	0.370278	512	debug
+runtime	shtrassen algorithm	0.369396	512	debug
+runtime	shtrassen algorithm	0.368495	512	debug
+runtime	shtrassen algorithm	0.368305	512	debug
+runtime	shtrassen algorithm	0.368807	512	debug
+runtime	shtrassen algorithm	0.369218	512	debug
+average runtime 0.374675 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - kij ordering
+runtime	kij ordering	3.338469	1000	debug
+runtime	kij ordering	3.344437	1000	debug
+runtime	kij ordering	3.354432	1000	debug
+runtime	kij ordering	3.386794	1000	debug
+runtime	kij ordering	3.409340	1000	debug
+runtime	kij ordering	3.343958	1000	debug
+runtime	kij ordering	3.332368	1000	debug
+average runtime 3.358543 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	2.958792	1000	debug
+runtime	kij, naive optimization	2.973170	1000	debug
+runtime	kij, naive optimization	2.949340	1000	debug
+runtime	kij, naive optimization	2.906594	1000	debug
+runtime	kij, naive optimization	2.897388	1000	debug
+runtime	kij, naive optimization	2.883084	1000	debug
+runtime	kij, naive optimization	2.878926	1000	debug
+average runtime 2.921042 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.033201	1000	debug
+runtime	cblas_dgemm optimization	0.025087	1000	debug
+runtime	cblas_dgemm optimization	0.025851	1000	debug
+runtime	cblas_dgemm optimization	0.024771	1000	debug
+runtime	cblas_dgemm optimization	0.025250	1000	debug
+runtime	cblas_dgemm optimization	0.024477	1000	debug
+runtime	cblas_dgemm optimization	0.025627	1000	debug
+average runtime 0.026323 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1000
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	2.664849	1000	debug
+runtime	shtrassen algorithm	2.616143	1000	debug
+runtime	shtrassen algorithm	2.613411	1000	debug
+runtime	shtrassen algorithm	2.626378	1000	debug
+runtime	shtrassen algorithm	2.632603	1000	debug
+runtime	shtrassen algorithm	2.629585	1000	debug
+runtime	shtrassen algorithm	2.640301	1000	debug
+average runtime 2.631896 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - kij ordering
+runtime	kij ordering	3.568637	1024	debug
+runtime	kij ordering	3.539140	1024	debug
+runtime	kij ordering	3.538280	1024	debug
+runtime	kij ordering	3.543109	1024	debug
+runtime	kij ordering	3.538876	1024	debug
+runtime	kij ordering	3.536804	1024	debug
+runtime	kij ordering	3.535245	1024	debug
+average runtime 3.542870 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - kij, naive optimization
+runtime	kij, naive optimization	3.179919	1024	debug
+runtime	kij, naive optimization	3.142666	1024	debug
+runtime	kij, naive optimization	3.170806	1024	debug
+runtime	kij, naive optimization	3.168219	1024	debug
+runtime	kij, naive optimization	3.178176	1024	debug
+runtime	kij, naive optimization	3.208105	1024	debug
+runtime	kij, naive optimization	3.152135	1024	debug
+average runtime 3.171432 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - cblas_dgemm optimization
+runtime	cblas_dgemm optimization	0.034502	1024	debug
+runtime	cblas_dgemm optimization	0.027427	1024	debug
+runtime	cblas_dgemm optimization	0.027143	1024	debug
+runtime	cblas_dgemm optimization	0.027050	1024	debug
+runtime	cblas_dgemm optimization	0.027422	1024	debug
+runtime	cblas_dgemm optimization	0.027149	1024	debug
+runtime	cblas_dgemm optimization	0.027623	1024	debug
+average runtime 0.028331 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	2.669750	1024	debug
+runtime	shtrassen algorithm	2.605730	1024	debug
+runtime	shtrassen algorithm	2.619960	1024	debug
+runtime	shtrassen algorithm	2.642220	1024	debug
+runtime	shtrassen algorithm	2.657762	1024	debug
+runtime	shtrassen algorithm	2.646004	1024	debug
+runtime	shtrassen algorithm	2.622929	1024	debug
+average runtime 2.637765 seconds
+---------------------------------
+Number of runs 7
+Matrix size 1024
+MatMul - shtrassen algorithm
+runtime	shtrassen algorithm	2.661793	1024	(null)
+runtime	shtrassen algorithm	2.604199	1024	(null)
+runtime	shtrassen algorithm	2.603704	1024	(null)
+runtime	shtrassen algorithm	2.629858	1024	(null)
+runtime	shtrassen algorithm	2.614166	1024	(null)
+runtime	shtrassen algorithm	2.627910	1024	(null)
+runtime	shtrassen algorithm	2.595919	1024	(null)
+average runtime 2.619650 seconds
+---------------------------------
