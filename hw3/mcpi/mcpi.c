@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
     // Try get num_threads from OMP_NUM_THREADS
     int num_threads = omp_get_num_threads();
 
-    // Try get num_threads from OMP_NUM_THREADS
+    // Try get num_threads from cmd parameters
     if (argc > 2) {
         num_threads = atoi(argv[2]);
     }
@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
     unsigned int idx;
     idx = (unsigned int)schedule < (unsigned int)omp_sched_auto ? (unsigned int)schedule : 0;
 
-    // Try get num_threads from OMP_NUM_THREADS
+    // Try get chunk_size from cmd parameters
     if (argc > 3) {
         chunk_size = atoi(argv[3]);
     }
