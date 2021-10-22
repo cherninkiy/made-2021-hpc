@@ -34,3 +34,5 @@
 *.log
 *.csv
 .vscode
+bin/
+build/
