@@ -35,7 +35,7 @@ int main (int argc, char *argv[])
     sum = 0.0;
 
 #pragma omp parallel shared(sum)
-    dotprod(a, b, N);
+    sum = dotprod(a, b, N);
 
     printf("Sum = %f\n",sum);
 
