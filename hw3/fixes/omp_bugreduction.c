@@ -7,11 +7,12 @@ float dotprod(float * a, float * b, size_t N)
     int i, tid;
     float sum;
 
-    tid = omp_get_thread_num();
 
-#pragma omp parallel for reduction(+:sum)
+#pragma omp parallel for private(tid) reduction(+:sum)
     for (i = 0; i < N; ++i)
     {
+        tid = omp_get_thread_num();
+        
         sum += a[i] * b[i];
         printf("tid = %d i = %d\n", tid, i);
     }
@@ -34,7 +35,6 @@ int main (int argc, char *argv[])
 
     sum = 0.0;
 
-#pragma omp parallel shared(sum)
     sum = dotprod(a, b, N);
 
     printf("Sum = %f\n",sum);
