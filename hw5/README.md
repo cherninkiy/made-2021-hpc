@@ -87,4 +87,4 @@
 
 Визуализация:
 
-[spaceships](https://github.com/cherninkiy/made-2021-hpc/blob/hw5/hw5/rule110/images/110_200_200_cyclic.png)
+[spaceships](https://github.com/cherninkiy/made-2021-hpc/blob/hw5/hw5/rule110/images/110_200_200_4_cyclic.png)
