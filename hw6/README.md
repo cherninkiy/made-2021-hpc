@@ -1,7 +1,7 @@
 ## Домашнее задание №6.
 
 Исходная картинка
-[lena.jpg](https://github.com/cherninkiy/made-2021-hpc/blob/hw6/hw6/images/lena.jpg)
+![lena.jpg](https://github.com/cherninkiy/made-2021-hpc/blob/hw6/hw6/images/lena.jpg)
  
 1. Фильтр по шаблону
 
@@ -9,20 +9,19 @@
 
 - Размытие картинки
 
-[lena_blur.jpg](https://github.com/cherninkiy/made-2021-hpc/blob/hw6/hw6/images/lena_blur.jpg)
+![lena_blur.jpg](https://github.com/cherninkiy/made-2021-hpc/blob/hw6/hw6/images/lena_blur.jpg)
 
 
 - Свертка с ядром 3х3
 
-[lena_conv.jpg](https://github.com/cherninkiy/made-2021-hpc/blob/hw6/hw6/images/lena_conv.jpg)
+![lena_conv.jpg](https://github.com/cherninkiy/made-2021-hpc/blob/hw6/hw6/images/lena_conv.jpg)
 
 2. Медианный фильр
 
 [median_kernel.cu](https://github.com/cherninkiy/made-2021-hpc/blob/hw6/hw6/src/median_kernel.cu)
 
-[lena_median.jpg](https://github.com/cherninkiy/made-2021-hpc/blob/hw6/hw6/images/lena_median.jpg)
+![lena_median.jpg](https://github.com/cherninkiy/made-2021-hpc/blob/hw6/hw6/images/lena_median.jpg)
 
-3. Гистограмма
+3. Гистограмма [hist.ipynb)](https://github.com/cherninkiy/made-2021-hpc/blob/hw6/hw6/hist.ipynb) 
 
-- [hist.ipynb)](https://github.com/cherninkiy/made-2021-hpc/blob/hw6/hw6/hist.ipynb) 
-
+![lena_hist.png](https://github.com/cherninkiy/made-2021-hpc/blob/hw6/hw6/images/lena_hist.png)
