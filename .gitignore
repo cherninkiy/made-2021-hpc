@@ -33,4 +33,7 @@
 
 *.log
 *.csv
-.ipybn*
+.vscode
+bin/
+build/
+.ipynb_checkpoints/
